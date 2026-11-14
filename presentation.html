@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; require-trusted-types-for 'script'; img-src 'self'; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="icons/stress-control.png">
+<title>Grunder och filosofi</title>
+<meta name="description" content="Varför apparna finns, vad de medvetet inte gör och grunderna som alla delar.">
+<link rel="stylesheet" href="presentation.css">
+</head>
+<body>
+<!-- Den långa presentationen: filosofi och grunder. Startsidan (index.html) är den korta. -->
+
+<main class="deck" id="deck">
+
+  <section class="title">
+    <div class="glow"></div><div class="glow g2"></div>
+    <div class="hero">
+      <div class="icons"><img src="icons/simple-nutrition.png" alt=""><img src="icons/budget-buddy.png" alt=""><img src="icons/football.png" alt=""><img src="icons/stress-control.png" alt=""></div>
+      <span class="eyebrow">flyinggooner · Grunder och filosofi</span>
+      <h1>Mindre app,<br>mer liv</h1>
+      <p class="lead">Varför de här apparna finns, vad de medvetet låter bli och grunderna som alla fyra delar.</p>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Utgångspunkten</span>
+    <h2>De flesta appar vill för mycket</h2>
+    <p class="lead">Konto först. Notiser, reklam, nyheter, uppsälj. Din data på någon annans server. Funktioner du aldrig bad om.</p>
+    <div class="cols">
+      <div class="card"><div class="ic" aria-hidden="true">🍽️</div><h3>Kaloriappen</h3><p>Tusentals märkesdubbletter och en premiumvägg – när du bara ville lära dig vad maten innehåller.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">💸</div><h3>Budgetappen</h3><p>Vill koppla till banken och sortera varje kaffe – när du bara ville veta om månaden går ihop.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">⚽</div><h3>Fotbollsappen</h3><p>Nyheter, spel och notiser – när du bara ville se tabellen och hur det gick för ditt lag.</p></div>
+    </div>
+    <p class="note">Mina appar är motpolen: en fråga, ett bra svar, inget mer.</p>
+  </section>
+
+  <section>
+    <span class="eyebrow">Filosofi</span>
+    <h2>Fem principer</h2>
+    <ol class="steps">
+      <li><b>En fråga per app.</b> Allt som inte hjälper till att svara på den väljs bort.</li>
+      <li><b>Din data är din.</b> Den stannar i telefonen. Inget konto, ingen server, ingen spårning.</li>
+      <li><b>Snabbt i vardagen.</b> Det vanligaste tar några sekunder – resten kan fyllas i senare.</li>
+      <li><b>Enkelt att lita på.</b> Liten kod utan beroenden, som går att läsa och testa.</li>
+      <li><b>Bättre tillsammans.</b> Det som blir bättre i en app förs in i alla.</li>
+    </ol>
+  </section>
+
+  <section>
+    <span class="eyebrow">Princip 1 · En fråga per app</span>
+    <h2>Varje app svarar på en sak</h2>
+    <div class="apps">
+      <div class="app"><img src="icons/simple-nutrition.png" alt=""><div><b>Simple nutrition</b><p>Vad har jag ätit i dag – och hur går vikten över tid?</p></div></div>
+      <div class="app"><img src="icons/budget-buddy.png" alt=""><div><b>Budget buddy</b><p>Går månaden ihop – och var blir det tight framåt?</p></div></div>
+      <div class="app"><img src="icons/football.png" alt=""><div><b>Football, not soccer</b><p>Hur ser tabellen ut, vad spelas härnäst och hur gick det för mitt lag?</p></div></div>
+      <div class="app"><img src="icons/stress-control.png" alt=""><div><b>Stress kontroll</b><p>Vad snurrar i huvudet – och vad är nästa steg, så att jag kan släppa det?</p></div></div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Princip 1 · Det som väljs bort</span>
+    <h2>Lika viktigt som det som byggs</h2>
+    <p>Varje app har en lista över <b>icke-mål</b> i sin spec – saker som medvetet inte byggs, hur lockande de än är.</p>
+    <table class="cmp">
+      <tr><th>App</th><th>Medvetet bortvalt</th></tr>
+      <tr><td>Simple nutrition</td><td>Varumärken, färdigrätter, mikronäringsämnen</td></tr>
+      <tr><td>Budget buddy</td><td>Bankkoppling, kvitton för varje köp, skatteberäkning</td></tr>
+      <tr><td>Football, not soccer</td><td>Nyheter, trupper, statistik, pushnotiser</td></tr>
+      <tr><td>Stress kontroll</td><td>Synk, bilagor, påminnelser via server</td></tr>
+      <tr><td><b>Alla</b></td><td><b>Konto, server, reklam, spårning</b></td></tr>
+    </table>
+  </section>
+
+  <section>
+    <span class="eyebrow">Princip 2 · Din data är din</span>
+    <h2>Inget lämnar telefonen</h2>
+    <div class="cols">
+      <div class="card"><div class="ic" aria-hidden="true">🏠</div><h3>Bara i telefonen</h3><p>Allt sparas i webbläsarens lagring på din enhet. Det finns ingen server att läcka från.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">🚫</div><h3>Webbläsaren vaktar</h3><p>Sidans säkerhetsregler förbjuder anrop ut. Även om koden ville, skulle webbläsaren stoppa den.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">⚖️</div><h3>Undantag granskas</h3><p>Fotbollsappen måste hämta resultat – men bara från en enda källa, aldrig med din data, och bara när du tittar.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Princip 2 · Backup</span>
+    <h2>Ingen server – därför låst backup</h2>
+    <p class="lead">Utan konto måste du själv kunna flytta och spara din data. Därför har varje app samma kort: Data.</p>
+    <div class="flow">
+      <div class="fbox"><b>💾 Spara backup</b>En fil med allt, låst med ditt lösenord (AES-256). Lägg den var du vill – molnet, mejlen, en dator.</div>
+      <div class="farr" aria-hidden="true">↓</div>
+      <div class="fbox"><b>📲 Läs in</b>På ny telefon: välj filen, skriv lösenordet. Du ser vad som läses in innan något ersätts – och kan ångra.</div>
+      <div class="farr" aria-hidden="true">↓</div>
+      <div class="fbox"><b>🔔 Påminnelse</b>Appen säger till när det var länge sedan du sparade.</div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Låst backup</span>
+    <h2>Varför backupen alltid har lösenord</h2>
+    <p class="lead">Backup-filen kan hamna hos någon annan. Då är enda vägen in att gissa lösenordet.</p>
+    <div class="flow">
+      <div class="fbox"><b>🏦 Bankens lås – och bromsade gissningar</b>AES-256, som banker använder. Även ett av världens snabbaste grafikkort hinner bara ~10 000 gissningar i sekunden.</div>
+      <div class="fbox"><b>🎲 Slumpade tecken – hur långt?</b>Tid att gissa sig igenom alla kombinationer:
+        <table class="cmp">
+          <tr><th>Tecken</th><th>1 grafikkort</th><th>1 000 kort</th></tr>
+          <tr><td>8</td><td>300 år</td><td>4 månader</td></tr>
+          <tr><td>10</td><td>1 miljon år</td><td>1 000 år</td></tr>
+          <tr><td><b>16 (appens)</b></td><td colspan="2">längre än universum funnits</td></tr>
+        </table></div>
+      <div class="fbox"><b>⚠️ Bara om tecknen är slumpade</b>Ord, namn och årtal gissas först: Sommar2024! har 11 tecken men faller på en dag.</div>
+    </div>
+    <p class="note">Uppskattning: slumpade bokstäver och siffror. Lösenordet finns aldrig i filen.</p>
+  </section>
+
+  <section>
+    <span class="eyebrow">Smidigt ändå</span>
+    <h2>Säkert utan att vara krångligt</h2>
+    <div class="cols">
+      <div class="card"><div class="ic" aria-hidden="true">🔑</div><h3>Kommer ihåg lösenordet</h3><p>Appen sparar lösenordet i telefonen första gången. Sedan sparas backup med ett tryck. Det går att stänga av.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">📱</div><h3>Varför det är rimligt</h3><p>Krypteringen skyddar filen när den lämnar telefonen. Den som redan har din olåsta telefon ser ändå allt i appen.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">🎲</div><h3>Eller låt appen välja</h3><p>Ett starkt slumpat lösenord med ett tryck, som lösenordshanteraren kan spara.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">⚠️</div><h3>Ha det någonstans</h3><p>Utan lösenordet öppnas backupen inte – inte ens av mig. Spara det i din lösenordshanterare.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Princip 3 · Snabbt i vardagen</span>
+    <h2>Några sekunder, sedan klart</h2>
+    <div class="cols">
+      <div class="card"><div class="ic" aria-hidden="true">⏱️</div><h3>Det vanligaste först</h3><p>Ny tråd: välj typ, skriv en rubrik. Tabellen syns direkt vid start. Resten kan vänta.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">👍</div><h3>Byggd för tummen</h3><p>Meny nertill, tryckytor på minst 48 px, inga små kryss.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">↩️</div><h3>Bakåt fungerar</h3><p>Telefonens bakåtknapp stänger det som är öppet, ett steg i taget – inte hela appen.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">📴</div><h3>Fungerar utan nät</h3><p>Installeras från webben och startar som en vanlig app, även i flygläge.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Princip 3 · Lugn</span>
+    <h2>En app ska ta bort stress, inte skapa den</h2>
+    <p class="lead">Inga notiser som kräver uppmärksamhet. Inga streaks att förlora. Inga röda siffror som ropar.</p>
+    <div class="cols">
+      <div class="card"><div class="ic" aria-hidden="true">🧠</div><h3>Skriv ner – släpp</h3><p>Stress kontroll bygger på en enkel tanke: det som har ett nästa steg nedskrivet behöver inte snurra i huvudet.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">🌱</div><h3>Vanor före siffror</h3><p>Simple nutrition låter dig lära dig råvarorna. Kalorier finns som stöd när du vill.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">🗓️</div><h3>Månad, inte kvitto</h3><p>Budget buddy planerar det stora. Kaffet behöver ingen rad.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Princip 4 · Enkelt att lita på</span>
+    <h2>Ren webb, inga beroenden</h2>
+    <div class="cols">
+      <div class="card"><div class="ic" aria-hidden="true">⚡</div><h3>Inga ramverk</h3><p>Vanlig HTML, CSS och JavaScript. Inget byggsteg, inga paket från okända källor.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">🔍</div><h3>Går att granska</h3><p>Liten kod som en människa kan läsa. Hela appen ryms i en enda fil.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">🛡️</div><h3>Text är alltid text</h3><p>Det du skriver visas aldrig som kod. En rubrik kan inte bli ett skript.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Automatiska tester</span>
+    <h2>Ett tryck – och allt kontrolleras</h2>
+    <div class="flow">
+      <div class="fbox"><b>1 · Säkerhetskontroll</b>Letar efter sådant som inte får finnas: kod utifrån, anrop till okända servrar, osäker lagring.</div>
+      <div class="farr" aria-hidden="true">↓</div>
+      <div class="fbox"><b>2 · Funktionstester</b>Appen används i en riktig webbläsare som en människa skulle: knappar trycks, data sparas, backup läses in.</div>
+      <div class="farr" aria-hidden="true">↓</div>
+      <div class="fbox"><b>3 · Ny version</b>Först när allt är grönt får appen ett nytt versionsnummer.</div>
+      <div class="farr" aria-hidden="true">↓</div>
+      <div class="fbox"><b>4 · Granskning</b>Ändringar som rör säkerheten granskas separat innan de publiceras.</div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Princip 5 · Bättre tillsammans</span>
+    <h2>En mall, fyra appar</h2>
+    <ol class="steps">
+      <li>Ny app startas från en gemensam mall – backup, tema, tester och hjälp finns från dag ett</li>
+      <li>Spec först: idé, mål och det som medvetet inte byggs</li>
+      <li>Säkerheten prövas före bygget och granskas före uppladdning</li>
+      <li>Det som blir bättre i en app förs tillbaka till mallen – och ut i alla</li>
+    </ol>
+    <p class="note">Exempel: den låsta backupen byggdes i en app och finns nu i alla fyra.</p>
+  </section>
+
+  <section>
+    <span class="eyebrow">Design</span>
+    <h2>Samma formspråk, egen färg</h2>
+    <div class="card">
+      <h3>Material Design 3, byggd för mobilen</h3>
+      <p>Varje app har en egen nyckelfärg som styr allt. Nästan kantigt och tätt, ljust och mörkt tema som följer telefonen.</p>
+      <div class="palette"><div class="sw p">primary</div><div class="sw c">container</div><div class="sw s">surface</div><div class="sw d">dark</div></div>
+      <div class="shapes"><div class="shape r8">Kort · 8 px</div><div class="shape r4">Chip · 4 px</div><div class="shape r6">Knapp · 6 px</div><div class="shape r12">Dialog · 12 px</div></div>
+      <p class="note">Svenska i appen · systemtypsnitt · hjälp inbyggd</p>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Kom igång</span>
+    <h2>Prova en app</h2>
+    <div class="apps">
+      <div class="app"><img src="icons/simple-nutrition.png" alt=""><div><b>Simple nutrition</b><span class="links"><a href="/simple-nutrition/">Öppna appen</a><a href="/simple-nutrition/docs/presentation.html">Presentation</a></span></div></div>
+      <div class="app"><img src="icons/budget-buddy.png" alt=""><div><b>Budget buddy</b><span class="links"><a href="/budget-buddy/">Öppna appen</a><a href="/budget-buddy/docs/presentation.html">Presentation</a></span></div></div>
+      <div class="app"><img src="icons/football.png" alt=""><div><b>Football, not soccer</b><span class="links"><a href="/Football-not-soccer/">Öppna appen</a><a href="/Football-not-soccer/docs/presentation.html">Presentation</a></span></div></div>
+      <div class="app"><img src="icons/stress-control.png" alt=""><div><b>Stress kontroll</b><span class="links"><a href="/Stress-control/">Öppna appen</a><a href="/Stress-control/docs/presentation.html">Presentation</a></span></div></div>
+    </div>
+    <p class="note">Öppna i Chrome eller Safari och välj Installera app / Lägg till på hemskärmen.</p>
+  </section>
+
+  <section class="title">
+    <div class="glow"></div><div class="glow g2"></div>
+    <div class="hero">
+      <span class="eyebrow">Sammanfattning</span>
+      <h1>En fråga.<br>Din data.<br>Inget mer.</h1>
+      <p class="lead">Små appar som gör en sak väl, håller dina uppgifter hos dig och är testade före varje version.</p>
+      <span class="links"><a href="./">← Till startsidan</a></span>
+    </div>
+  </section>
+
+</main>
+<nav class="nav" aria-label="Bläddra">
+  <button type="button" class="prev" id="prev">‹ Föregående</button>
+  <span class="count" id="count" aria-live="polite"></span>
+  <button type="button" class="next" id="next">Nästa ›</button>
+</nav>
+
+<script src="presentation.js"></script>
+</body>
+</html>
