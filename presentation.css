@@ -144,7 +144,13 @@ pre em { color: var(--key-hi); font-style: normal; }
 @media print { .subnav { display: none; } .sub[hidden] { display: block; } }
 a.url { text-decoration: underline; }
 .cta { display: inline-block; margin-top: 18px; padding: 12px 22px; min-height: 48px; box-sizing: border-box; border-radius: var(--r-md); background: var(--key); color: #fff; font-weight: 600; text-decoration: none; }
-.card .fix { display: grid; grid-template-columns: 40px 1fr; gap: 10px; align-items: center; margin-top: 12px; padding: 10px; border-radius: var(--r-lg); background: var(--paper); border-left: 4px solid var(--key); }
-.card .fix img { width: 40px; height: 40px; border-radius: var(--r-md); }
-.card .fix b { display: block; font-size: 15px; color: var(--ink); }
-.card .fix span { font-size: 14px; color: var(--muted); }
+/* Problem → lösning (startsidan) */
+.vs { display: grid; gap: 10px; margin-top: 16px; }
+.vs-row { display: grid; grid-template-columns: 1fr 20px 1fr; align-items: stretch; gap: 6px; }
+.vs-bad, .vs-good { display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; border-radius: var(--r-lg); font-size: 13px; line-height: 1.35; }
+.vs-bad { background: var(--tint); color: var(--muted); }
+.vs-good { background: var(--paper); border: 2px solid var(--key); color: var(--muted); }
+.vs-bad b, .vs-good b { color: var(--ink); font-size: 14px; }
+.vs-ic { font-size: 20px; line-height: 1; margin-bottom: 4px; }
+.vs-good img { width: 28px; height: 28px; border-radius: var(--r-md); margin-bottom: 4px; }
+.vs-arrow { align-self: center; text-align: center; color: var(--key); font-size: 18px; font-weight: 700; }
