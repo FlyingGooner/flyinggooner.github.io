@@ -145,12 +145,11 @@ pre em { color: var(--key-hi); font-style: normal; }
 a.url { text-decoration: underline; }
 .cta { display: inline-block; margin-top: 18px; padding: 12px 22px; min-height: 48px; box-sizing: border-box; border-radius: var(--r-md); background: var(--key); color: #fff; font-weight: 600; text-decoration: none; }
 /* Problem → lösning (startsidan) */
-.vs { display: grid; gap: 10px; margin-top: 16px; }
-.vs-row { display: grid; grid-template-columns: 1fr 20px 1fr; align-items: stretch; gap: 6px; }
-.vs-bad, .vs-good { display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; border-radius: var(--r-lg); font-size: 13px; line-height: 1.35; }
+.vs { display: grid; gap: 10px; margin-top: 14px; }
+.vs-pair { border-radius: var(--r-lg); overflow: hidden; border: 1px solid var(--line); }
+.vs-bad, .vs-good { display: grid; grid-template-columns: 32px 1fr; gap: 10px; align-items: start; padding: 10px 12px; font-size: 13px; line-height: 1.4; }
 .vs-bad { background: var(--tint); color: var(--muted); }
-.vs-good { background: var(--paper); border: 2px solid var(--key); color: var(--muted); }
-.vs-bad b, .vs-good b { color: var(--ink); font-size: 14px; }
-.vs-ic { font-size: 20px; line-height: 1; margin-bottom: 4px; }
-.vs-good img { width: 28px; height: 28px; border-radius: var(--r-md); margin-bottom: 4px; }
-.vs-arrow { align-self: center; text-align: center; color: var(--key); font-size: 18px; font-weight: 700; }
+.vs-good { background: var(--paper); color: var(--muted); border-top: 3px solid var(--key); }
+.vs-bad b, .vs-good b { display: block; color: var(--ink); font-size: 14px; }
+.vs-ic { font-size: 22px; line-height: 32px; text-align: center; }
+.vs-good img { width: 32px; height: 32px; border-radius: var(--r-md); }
