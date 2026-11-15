@@ -74,6 +74,20 @@ No notifications demanding attention. No streaks to lose. No red numbers shoutin
 - **Habits before numbers.** Learn the ingredients; calories are there as support when you want.
 - **Month, not receipt.** Plan the big things – the coffee does not need a line.
 
+## 🛡️ Why this is the safer way
+
+Sensitive data mostly leaks in two ways: **a company's database is hacked**, or **the company sells or shares it**. A budget app knows your whole financial life, a health app your weight and habits, a family app your children's names and worries.
+
+| | Typical app with an account | These apps |
+|---|---|---|
+| Central database to hack | Yes – millions of users in one place | **None** – data only in your phone |
+| Data sold or shared for ads/analytics | Common, even in paid apps | **Impossible** – no account, no analytics, requests out are blocked by the browser |
+| Readable by staff or partners | Possible | **No** – only you have it |
+| If the company shuts down | Your data goes with it | **Stays on your phone** |
+| Backup | In the company's cloud | **Encrypted (AES-256) with your password** before it leaves the phone |
+
+**Honestly:** nothing is 100 % safe. What remains is your own phone (lock it and keep it updated), a strong backup password, and trusting that the code on GitHub Pages is the open, reviewed code. But with no server there is nothing central to steal – for this kind of data that is as safe as a practical app gets.
+
 ---
 
 ## 🔒 Your data stays with you
