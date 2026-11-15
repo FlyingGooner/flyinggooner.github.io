@@ -5,7 +5,7 @@
   <img src="icons/stress-control.png" width="64" alt="Stress control">
 </p>
 
-<h1 align="center">Small apps, high standard</h1>
+<h1 align="center">Small apps, big needs</h1>
 
 <p align="center">
   <b>One question. Your data. Nothing more.</b><br>
