@@ -144,3 +144,5 @@ pre em { color: var(--key-hi); font-style: normal; }
 @media print { .subnav { display: none; } .sub[hidden] { display: block; } }
 a.url { text-decoration: underline; }
 .cta { display: inline-block; margin-top: 18px; padding: 12px 22px; min-height: 48px; box-sizing: border-box; border-radius: var(--r-md); background: var(--key); color: #fff; font-weight: 600; text-decoration: none; }
+.card .fix { margin-top: 8px; color: var(--key); font-weight: 500; }
+@media (prefers-color-scheme: dark) { .card .fix { color: var(--key-hi); } }
