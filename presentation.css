@@ -120,14 +120,22 @@ pre em { color: var(--key-hi); font-style: normal; }
 
 /* Startsidan: appkort med länkar */
 .icons img { width: 52px; height: 52px; }
-.apps { display: grid; gap: 10px; }
-.app { display: grid; grid-template-columns: 48px 1fr; gap: 12px; align-items: start; background: var(--tint); border-radius: var(--r-lg); padding: 12px 14px; }
-.app img { width: 48px; height: 48px; border-radius: var(--r-lg); }
-.app b { display: block; font-size: 16px; }
+.apps { display: grid; gap: 8px; }
+.app { display: grid; grid-template-columns: 44px 1fr auto; gap: 12px; align-items: center; background: var(--tint); border-radius: var(--r-lg); padding: 10px 12px; }
+.app img { width: 44px; height: 44px; border-radius: var(--r-lg); }
+.app-txt { min-width: 0; }
+.app b { display: block; font-size: 16px; line-height: 1.25; }
+.app-txt span { display: block; font-size: 13px; color: var(--muted); }
 .app p { font-size: 14px; margin: 2px 0 6px; }
-.links { display: flex; flex-wrap: wrap; gap: 6px 14px; }
-.links a { color: var(--key); font-weight: 500; font-size: 14px; text-decoration: none; min-height: 32px; display: inline-flex; align-items: center; }
-.links a:first-child { background: var(--key); color: #fff; padding: 0 12px; border-radius: var(--r-md); }
+.links { display: flex; flex-direction: column; gap: 4px; align-items: stretch; }
+.links a { color: var(--key); font-weight: 500; font-size: 14px; text-decoration: none; min-height: 32px; display: inline-flex; align-items: center; justify-content: center; padding: 0 12px; border-radius: var(--r-md); }
+.links a:first-child { background: var(--key); color: #fff; }
+.install { margin-top: 14px; background: var(--tint); border-radius: var(--r-lg); padding: 12px 14px; font-size: 14px; color: var(--muted); }
+.install b { display: block; color: var(--ink); font-size: 15px; margin-bottom: 6px; }
+.install p { margin: 4px 0; }
+.install .os { display: inline-block; min-width: 64px; font-weight: 600; color: var(--ink); }
+.install .muted { font-size: 13px; margin-top: 8px; }
+.nav button:disabled { visibility: hidden; }
 @media (prefers-color-scheme: dark) { .links a { color: var(--key-hi); } .links a:first-child { color: #fff; } }
 
 /* Språkknapp på första bilden (2026-11-15) */
