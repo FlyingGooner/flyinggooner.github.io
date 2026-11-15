@@ -129,3 +129,7 @@ pre em { color: var(--key-hi); font-style: normal; }
 .links a { color: var(--key); font-weight: 500; font-size: 14px; text-decoration: none; min-height: 32px; display: inline-flex; align-items: center; }
 .links a:first-child { background: var(--key); color: #fff; padding: 0 12px; border-radius: var(--r-md); }
 @media (prefers-color-scheme: dark) { .links a { color: var(--key-hi); } .links a:first-child { color: #fff; } }
+
+/* Språkknapp på första bilden (2026-11-15) */
+.lang-btn { position: absolute; top: 16px; right: 16px; z-index: 2; min-height: 40px; padding: 0 14px; border-radius: 20px; border: 1px solid currentColor; background: transparent; color: inherit; font: inherit; font-size: .9rem; cursor: pointer; opacity: .85; }
+.lang-btn:hover, .lang-btn:focus-visible { opacity: 1; }

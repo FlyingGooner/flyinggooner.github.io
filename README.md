@@ -2,156 +2,156 @@
   <img src="icons/simple-nutrition.png" width="64" alt="Simple nutrition">
   <img src="icons/budget-buddy.png" width="64" alt="Budget buddy">
   <img src="icons/football.png" width="64" alt="Football, not soccer">
-  <img src="icons/stress-control.png" width="64" alt="Stress kontroll">
+  <img src="icons/stress-control.png" width="64" alt="Stress control">
 </p>
 
-<h1 align="center">Små appar, hög nivå</h1>
+<h1 align="center">Small apps, high standard</h1>
 
 <p align="center">
-  <b>En fråga. Din data. Inget mer.</b><br>
-  Fyra mobilappar byggda från samma mall – ingen inloggning, ingen server, din data stannar i telefonen.
+  <b>One question. Your data. Nothing more.</b><br>
+  Four mobile apps built from the same template – no login, no server, your data stays in the phone. In English and Swedish.
 </p>
 
 <p align="center">
-  <a href="https://flyinggooner.github.io/"><b>Startsidan</b></a> ·
-  <a href="https://flyinggooner.github.io/presentation.html"><b>Presentationen som bildspel</b></a>
+  <a href="https://flyinggooner.github.io/"><b>Home page</b></a> ·
+  <a href="https://flyinggooner.github.io/presentation.html"><b>The presentation as a slideshow</b></a>
 </p>
 
 ---
 
-## 📱 Apparna
+## 📱 The apps
 
-| | App | Frågan den svarar på |
+| | App | The question it answers |
 |:-:|---|---|
-| <img src="icons/simple-nutrition.png" width="40" alt=""> | **[Simple nutrition](https://flyinggooner.github.io/simple-nutrition/)** | Vad har jag ätit i dag – och hur går vikten över tid? |
-| <img src="icons/budget-buddy.png" width="40" alt=""> | **[Budget buddy](https://flyinggooner.github.io/budget-buddy/)** | Går månaden ihop – och var blir det tight framåt? |
-| <img src="icons/football.png" width="40" alt=""> | **[Football, not soccer](https://flyinggooner.github.io/Football-not-soccer/)** | Hur ser tabellen ut, vad spelas härnäst, hur gick det för mitt lag? |
-| <img src="icons/stress-control.png" width="40" alt=""> | **[Stress kontroll](https://flyinggooner.github.io/Stress-control/)** | Vad snurrar i huvudet – och vad är nästa steg, så att jag kan släppa det? |
+| <img src="icons/simple-nutrition.png" width="40" alt=""> | **[Simple nutrition](https://flyinggooner.github.io/simple-nutrition/)** | What have I eaten today – and how is my weight doing over time? |
+| <img src="icons/budget-buddy.png" width="40" alt=""> | **[Budget buddy](https://flyinggooner.github.io/budget-buddy/)** | Does the month add up – and where does it get tight ahead? |
+| <img src="icons/football.png" width="40" alt=""> | **[Football, not soccer](https://flyinggooner.github.io/Football-not-soccer/)** | What does the table look like, what is played next, how did my team do? |
+| <img src="icons/stress-control.png" width="40" alt=""> | **[Stress control](https://flyinggooner.github.io/Stress-control/)** | What is spinning in my head – and what is the next step, so I can let it go? |
 
-> **Installera:** öppna appen i Chrome (Android) eller Safari (iPhone) och välj *Installera app* / *Lägg till på hemskärmen*. Den fungerar sedan utan nät.
+> **Install:** open the app in Chrome (Android) or Safari (iPhone) and choose *Install app* / *Add to Home Screen*. It then works offline. The first time, you choose English or Swedish.
 
 ---
 
-## 💡 Utgångspunkten: de flesta appar vill för mycket
+## 💡 The starting point: most apps want too much
 
-Konto först. Notiser, reklam, nyheter, uppsälj. Din data på någon annans server. Funktioner du aldrig bad om.
+Account first. Notifications, ads, news, upsell. Your data on someone else's server. Features you never asked for.
 
-- 🍽️ **Kaloriappen** har tusentals märkesdubbletter och en premiumvägg – när du bara ville lära dig vad maten innehåller.
-- 💸 **Budgetappen** vill koppla till banken och sortera varje kaffe – när du bara ville veta om månaden går ihop.
-- ⚽ **Fotbollsappen** är full av nyheter, spel och notiser – när du bara ville se tabellen.
+- 🍽️ **The calorie app** has thousands of brand duplicates and a premium wall – when you only wanted to learn what the food contains.
+- 💸 **The budget app** wants to connect to the bank and sort every coffee – when you only wanted to know if the month adds up.
+- ⚽ **The football app** is full of news, betting and notifications – when you only wanted to see the table.
 
-**De här apparna är motpolen: en fråga, ett bra svar, inget mer.**
+**These apps are the opposite: one question, one good answer, nothing more.**
 
 ---
 
-## 🧭 Fem principer
+## 🧭 Five principles
 
-| | Princip | Vad det betyder |
+| | Principle | What it means |
 |:-:|---|---|
-| 🎯 | **En fråga per app** | Allt som inte hjälper till att svara på den väljs bort. |
-| 🔒 | **Din data är din** | Den stannar i telefonen. Inget konto, ingen server, ingen spårning. |
-| ⚡ | **Snabbt i vardagen** | Det vanligaste tar några sekunder – resten kan fyllas i senare. |
-| 🔍 | **Enkelt att lita på** | Liten kod utan beroenden, som går att läsa och testa. |
-| 🔁 | **Bättre tillsammans** | Det som blir bättre i en app förs in i alla. |
+| 🎯 | **One question per app** | Everything that does not help answer it is left out. |
+| 🔒 | **Your data is yours** | It stays in the phone. No account, no server, no tracking. |
+| ⚡ | **Quick in everyday life** | The most common things take a few seconds – the rest can be filled in later. |
+| 🔍 | **Easy to trust** | Small code without dependencies, which can be read and tested. |
+| 🔁 | **Better together** | What gets better in one app is brought into all of them. |
 
-### 🎯 Det som väljs bort är lika viktigt
+### 🎯 What is left out is just as important
 
-Varje app har en lista över *icke-mål* – saker som medvetet inte byggs, hur lockande de än är.
+Each app has a list of *non-goals* – things deliberately not built, however tempting they are.
 
-| App | Medvetet bortvalt |
+| App | Deliberately left out |
 |---|---|
-| Simple nutrition | Varumärken, färdigrätter, mikronäringsämnen |
-| Budget buddy | Bankkoppling, kvitton för varje köp, skatteberäkning |
-| Football, not soccer | Nyheter, trupper, statistik, pushnotiser |
-| Stress kontroll | Synk, bilagor, påminnelser via server |
-| **Alla** | **Konto, server, reklam, spårning** |
+| Simple nutrition | Brands, ready meals, micronutrients |
+| Budget buddy | Bank connection, receipts for every purchase, tax calculation |
+| Football, not soccer | News, squads, statistics, push notifications |
+| Stress control | Sync, attachments, reminders via a server |
+| **All** | **Account, server, ads, tracking** |
 
-### 🧘 En app ska ta bort stress, inte skapa den
+### 🧘 An app should remove stress, not create it
 
-Inga notiser som kräver uppmärksamhet. Inga streaks att förlora. Inga röda siffror som ropar.
+No notifications demanding attention. No streaks to lose. No red numbers shouting.
 
-- **Skriv ner – släpp.** Det som har ett nästa steg nedskrivet behöver inte snurra i huvudet.
-- **Vanor före siffror.** Lär dig råvarorna; kalorier finns som stöd när du vill.
-- **Månad, inte kvitto.** Planera det stora – kaffet behöver ingen rad.
-
----
-
-## 🔒 Din data stannar hos dig
-
-- 🏠 **Bara i telefonen.** Allt sparas i webbläsarens lagring på din enhet. Det finns ingen server att läcka från.
-- 🚫 **Webbläsaren vaktar.** Sidans säkerhetsregler förbjuder anrop ut – även om koden ville, skulle webbläsaren stoppa den.
-- ⚖️ **Undantag granskas.** Fotbollsappen måste hämta resultat, men bara från en enda källa, aldrig med din data och bara när du tittar.
+- **Write it down – let it go.** What has its next step written down does not need to spin in your head.
+- **Habits before numbers.** Learn the ingredients; calories are there as support when you want.
+- **Month, not receipt.** Plan the big things – the coffee does not need a line.
 
 ---
 
-## 🔑 Varför appen ber om ett lösenord direkt
+## 🔒 Your data stays with you
 
-> Inget konto – men en nyckel. Appen är låst tills du har valt ett lösenord för dina backup-filer.
+- 🏠 **Only in the phone.** Everything is stored in the browser's storage on your device. There is no server to leak from.
+- 🚫 **The browser keeps watch.** The page's security rules forbid requests out – even if the code wanted to, the browser would stop it.
+- ⚖️ **Exceptions are reviewed.** The football app has to fetch results, but only from a single source, never with your data and only when you are looking.
 
-- **Det är ingen inloggning.** Lösenordet skickas ingenstans och appen samlar ingen data. Det är bara nyckeln som låser dina backup-filer.
-- **Ingen server räddar dig.** Datan finns bara i telefonen. Tappar du den, eller rensar webbläsaren, är backup-filen det enda som finns kvar.
-- **Därför från start.** Väljs lösenordet först när något redan gått fel är det för sent. Valt från början blir backup ett enda tryck.
-- **Har du redan en backup?** Läs in den i stället – lösenordet som öppnar filen sparas.
+---
 
-### 💾 Så går backupen till
+## 🔑 Why the app asks for a password right away
+
+> No account – but a key. The app is locked until you have chosen a password for your backup files.
+
+- **It is not a login.** The password is sent nowhere and the app collects no data. It is just the key that locks your backup files.
+- **No server will save you.** The data is only in the phone. If you lose it, or clear the browser, the backup file is all that is left.
+- **Hence from the start.** If the password is chosen only when something has already gone wrong, it is too late. Chosen from the start, a backup is a single tap.
+- **Already have a backup?** Restore it instead – the password that opens the file is saved.
+
+### 💾 How the backup works
 
 ```
- 1  Välj lösenord        Första start: "Skapa slumpmässigt lösenord" (eller eget).
-         │               Spara det i lösenordshanteraren. Telefonen kommer ihåg det.
+ 1  Choose password      First start: "Create random password" (or your own).
+         │               Save it in your password manager. The phone remembers it.
          ▼
- 2  Spara backup-fil     Inställningar → Data → Spara backup-fil. Ett tryck.
-         │               Krypterad fil – lägg den i molnet, mejlen eller på datorn.
+ 2  Save backup file     Settings → Data → Save backup file. One tap.
+         │               Encrypted file – put it in the cloud, your email or on your computer.
          ▼
- 3  Påminnelse           Appen säger till varje månad.
+ 3  Reminder             The app tells you every month.
          │
          ▼
- 4  Ny telefon           Läs in backup-fil → lösenord → sammanfattning → Ersätt.
-                         Ångra finns direkt efteråt.
+ 4  New phone            Restore backup file → password → summary → Replace.
+                         Undo is available right afterwards.
 ```
 
-### 🎲 Hur säker är filen?
+### 🎲 How safe is the file?
 
-Låset är **AES-256**, samma typ som banker använder, och varje gissning är bromsad: även ett av världens snabbaste grafikkort hinner bara ~10 000 gissningar i sekunden.
+The lock is **AES-256**, the same kind banks use, and every guess is slowed down: even one of the world's fastest graphics cards manages only ~10,000 guesses per second.
 
-| Slumpade tecken | 1 grafikkort | 1 000 grafikkort |
+| Random characters | 1 graphics card | 1,000 graphics cards |
 |---|---|---|
-| 8 | 300 år | 4 månader |
-| 10 | 1 miljon år | 1 000 år |
-| **16 (appens)** | längre än universum funnits | längre än universum funnits |
+| 8 | 300 years | 4 months |
+| 10 | 1 million years | 1,000 years |
+| **16 (the app's)** | longer than the universe has existed | longer than the universe has existed |
 
-> ⚠️ **Bara om tecknen är slumpade.** Ord, namn och årtal gissas först: `Sommar2024!` har 11 tecken men faller på en dag.
+> ⚠️ **Only if the characters are random.** Words, names and years are guessed first: `Summer2024!` has 11 characters but falls in a day.
 
-**Smidigt ändå:** appen kommer ihåg lösenordet i telefonen, så backup sparas med ett tryck. Krypteringen skyddar filen när den *lämnar* telefonen – den som redan har din olåsta telefon ser ändå allt i appen. Lösenordet finns aldrig i filen, och utan det går backupen inte att öppna. Spara det i din lösenordshanterare.
+**Smooth anyway:** the app remembers the password in the phone, so a backup takes one tap. The encryption protects the file when it *leaves* the phone – anyone who already has your unlocked phone sees everything in the app anyway. The password is never in the file, and without it the backup cannot be opened. Save it in your password manager.
 
-<sub>Tiderna är egna överslag: slumpade bokstäver och siffror, PBKDF2 med 600 000 varv.</sub>
+<sub>The times are my own rough estimates: random letters and digits, PBKDF2 with 600,000 iterations.</sub>
 
 ---
 
-## ✅ Testad före varje version
+## ✅ Tested before every version
 
-| Steg | Vad som händer |
+| Step | What happens |
 |:-:|---|
-| **1 · Säkerhetskontroll** | All kod genomsöks efter sådant som inte får finnas: kod utifrån, anrop till okända servrar, osäker lagring. |
-| **2 · Funktionstester** | Appen används i en riktig webbläsare som en människa skulle: knappar trycks, data sparas, backup läses in. |
-| **3 · Ny version** | Först när allt är grönt får appen ett nytt versionsnummer. |
-| **4 · Granskning** | Ändringar som rör säkerheten granskas separat innan de publiceras. |
+| **1 · Security check** | All code is searched for things that must not be there: code from outside, requests to unknown servers, unsafe storage. |
+| **2 · Function tests** | The app is used in a real browser the way a person would: buttons are tapped, data is saved, backups are restored. |
+| **3 · New version** | Only when everything is green does the app get a new version number. |
+| **4 · Review** | Changes that affect security are reviewed separately before they are published. |
 
-**Alltid kontrollerat:** bara appens egen kod körs · inget lämnar telefonen · det du skriver visas aldrig som kod · en ändrad backup-fil läses inte in · det du sparar är exakt det du får tillbaka.
+**Always checked:** only the app's own code runs · nothing leaves the phone · what you write is never shown as code · a changed backup file is not restored · what you save is exactly what you get back.
 
 ---
 
-## 🧱 En mall, fyra appar
+## 🧱 One template, four apps
 
-1. Ny app startas från en gemensam mall – backup, tema, tester och hjälp finns från dag ett.
-2. **Spec först:** idé, mål och det som medvetet inte byggs.
-3. Säkerheten prövas före bygget och granskas före uppladdning.
-4. Det som blir bättre i en app förs tillbaka till mallen – och ut i alla.
+1. A new app starts from a shared template – backup, theme, tests, help and language support are there from day one.
+2. **Spec first:** idea, goals and what is deliberately not built.
+3. Security is tested before the build and reviewed before upload.
+4. What gets better in one app is brought back to the template – and out to all of them.
 
-**Samma grund i alla:** ren HTML, CSS och JavaScript · inga ramverk eller beroenden · inget byggsteg · fungerar offline · Material Design 3 med egen nyckelfärg per app · ljust och mörkt tema · meny nertill för tummen · telefonens Bakåt stänger ett steg i taget · manual inbyggd.
+**The same foundation in all:** plain HTML, CSS and JavaScript · no frameworks or dependencies · no build step · works offline · Material Design 3 with its own key colour per app · light and dark theme · menu at the bottom for the thumb · the phone's Back closes one step at a time · built-in manual · English and Swedish.
 
 ---
 
 <p align="center">
-  <b>Små appar som gör en sak väl, håller dina uppgifter hos dig och är testade före varje version.</b><br>
+  <b>Small apps that do one thing well, keep your data with you and are tested before every version.</b><br>
   <a href="https://flyinggooner.github.io/">flyinggooner.github.io</a>
 </p>
