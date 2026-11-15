@@ -23,7 +23,6 @@
       <span class="eyebrow">flyinggooner · Appar</span>
       <h1>Små appar,<br>hög nivå</h1>
       <p class="lead">Fyra appar för mobilen, byggda från samma mall. Bläddra för att se dem – och vad mallen betyder för dig.</p>
-      <span class="links"><a href="presentation.html">Grunder och filosofi – hela presentationen</a></span>
     </div>
   </section>
 
@@ -44,6 +43,19 @@
   </section>
 
   <section>
+    <span class="eyebrow">Utgångspunkten</span>
+    <h2>De flesta appar vill för mycket</h2>
+    <p class="lead">Konto först. Notiser, reklam, nyheter, uppsälj. Din data på någon annans server. Funktioner du aldrig bad om.</p>
+    <div class="cols">
+      <div class="card"><div class="ic" aria-hidden="true">🍽️</div><h3>Kaloriappen</h3><p>Tusentals märkesdubbletter och en premiumvägg – när du bara ville lära dig vad maten innehåller.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">💸</div><h3>Budgetappen</h3><p>Vill koppla till banken och sortera varje kaffe – när du bara ville veta om månaden går ihop.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">⚽</div><h3>Fotbollsappen</h3><p>Nyheter, spel och notiser – när du bara ville se tabellen och hur det gick för ditt lag.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">🧘</div><h3>Stressappen</h3><p>Prenumeration, ljudbibliotek och påminnelser om att andas – när du bara ville förstå vad som stressar dig och vad som hjälper.</p></div>
+    </div>
+    <p class="note">Mina appar är motpolen: en fråga, ett bra svar, inget mer.</p>
+  </section>
+
+  <section>
     <span class="eyebrow">Så ser de ut</span>
     <h2>Fyra appar – samma känsla</h2>
     <div class="sub" data-title="Simple nutrition"><div class="shots"><img src="/simple-nutrition/docs/screenshots/today.png" alt="Simple nutrition – Idag"><img src="/simple-nutrition/docs/screenshots/week.png" alt="Simple nutrition – Vecka"><img src="/simple-nutrition/docs/screenshots/trend.png" alt="Simple nutrition – Trend"></div><p class="cap">Idag · Vecka · Trend</p></div>
@@ -55,39 +67,37 @@
 
   <section>
     <span class="eyebrow">Filosofi</span>
-    <h2>Tre principer bakom varje app</h2>
-    <div class="cols">
-      <div class="card"><div class="ic" aria-hidden="true">🎯</div><h3>Ett tydligt fokus</h3><p>Varje app svarar på en enda fråga. Allt annat väljs aktivt bort.</p></div>
-      <div class="card"><div class="ic" aria-hidden="true">🔒</div><h3>Integritet först</h3><p>Ingen inloggning, ingen spårning. Data stannar på telefonen, och webbläsaren stänger ute allt som inte är appens eget.</p></div>
-      <div class="card"><div class="ic" aria-hidden="true">⚡</div><h3>Ren webb</h3><p>Inga ramverk, inga beroenden. Liten, snabb och lätt att granska – hela appen ryms i en enda fil.</p></div>
-    </div>
+    <h2>Fem principer</h2>
+    <ol class="steps">
+      <li><span><b>En fråga per app.</b> Allt som inte hjälper till att svara på den väljs bort.</span></li>
+      <li><span><b>Din data är din.</b> Den stannar i telefonen. Inget konto, ingen server, ingen spårning.</span></li>
+      <li><span><b>Snabbt i vardagen.</b> Det vanligaste tar några sekunder – resten kan fyllas i senare.</span></li>
+      <li><span><b>Enkelt att lita på.</b> Liten kod utan beroenden, som går att läsa och testa.</span></li>
+      <li><span><b>Bättre tillsammans.</b> Det som blir bättre i en app förs in i alla.</span></li>
+    </ol>
   </section>
 
   <section>
-    <span class="eyebrow">Det du får</span>
-    <h2>Varje app har det här från dag ett</h2>
-    <div class="cols">
-      <div class="card"><div class="ic" aria-hidden="true">📱</div><h3>En riktig app i mobilen</h3><p>Installeras från webben på 30 sekunder, startar i eget fönster och fungerar utan nät.</p></div>
-      <div class="card"><div class="ic" aria-hidden="true">🔐</div><h3>Låst backup</h3><p>Spara allt som en fil som bara ditt lösenord öppnar – samma typ av kryptering som banker använder. Byt telefon utan att tappa något.</p></div>
-      <div class="card"><div class="ic" aria-hidden="true">🏠</div><h3>Din data stannar hos dig</h3><p>Inget konto, ingen server, ingen reklam, inga spårare.</p></div>
-      <div class="card"><div class="ic" aria-hidden="true">🎨</div><h3>Snygg och lätt att använda</h3><p>Meny nertill för tummen, stora knappar, ljust och mörkt tema som följer telefonen.</p></div>
-      <div class="card"><div class="ic" aria-hidden="true">📖</div><h3>Hjälp inbyggd</h3><p>Manual i appen, en presentation och en beskrivning av hur den fungerar.</p></div>
-      <div class="card"><div class="ic" aria-hidden="true">✅</div><h3>Testad före varje version</h3><p>Automatiska tester kontrollerar säkerhet och funktioner. Underkänt test = ingen ny version.</p></div>
-    </div>
+    <span class="eyebrow">Princip 1 · Det som väljs bort</span>
+    <h2>Lika viktigt som det som byggs</h2>
+    <p>Varje app har en lista över <b>icke-mål</b> i sin spec – saker som medvetet inte byggs, hur lockande de än är.</p>
+    <table class="cmp">
+      <tr><th>App</th><th>Medvetet bortvalt</th></tr>
+      <tr><td>Simple nutrition</td><td>Varumärken, färdigrätter, mikronäringsämnen</td></tr>
+      <tr><td>Budget buddy</td><td>Bankkoppling, kvitton för varje köp, skatteberäkning</td></tr>
+      <tr><td>Football, not soccer</td><td>Nyheter, trupper, statistik, pushnotiser</td></tr>
+      <tr><td>Stress kontroll</td><td>Synk, bilagor, påminnelser via server</td></tr>
+      <tr><td><b>Alla</b></td><td><b>Konto, server, reklam, spårning</b></td></tr>
+    </table>
   </section>
 
   <section>
-    <span class="eyebrow">Automatiska tester</span>
-    <h2>Ett tryck – och allt kontrolleras</h2>
-    <p>Varje ändring går genom samma PowerShell-skript. Inget steg kan glömmas, och inget släpps om något är fel.</p>
-    <div class="flow">
-      <div class="fbox"><b>1 · Säkerhetskontroll</b>Letar igenom all kod efter sådant som inte får finnas: kod utifrån, anrop till okända servrar, osäker lagring. Hittas något stoppas allt.</div>
-      <div class="farr" aria-hidden="true">↓</div>
-      <div class="fbox"><b>2 · Funktionstester</b>Appen startas i en riktig webbläsare och används som en människa skulle: knappar trycks, data sparas, backup läses in.</div>
-      <div class="farr" aria-hidden="true">↓</div>
-      <div class="fbox"><b>3 · Ny version</b>Först när allt är grönt får appen ett nytt versionsnummer. Innan den laddas upp körs allt en gång till.</div>
-      <div class="farr" aria-hidden="true">↓</div>
-      <div class="fbox"><b>4 · Granskning</b>Ändringar som rör säkerheten granskas dessutom separat innan de publiceras.</div>
+    <span class="eyebrow">Princip 2 · Din data är din</span>
+    <h2>Inget lämnar telefonen</h2>
+    <div class="cols">
+      <div class="card"><div class="ic" aria-hidden="true">🏠</div><h3>Bara i telefonen</h3><p>Allt sparas i webbläsarens lagring på din enhet. Det finns ingen server att läcka från.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">🚫</div><h3>Webbläsaren vaktar</h3><p>Sidans säkerhetsregler förbjuder anrop ut. Även om koden ville, skulle webbläsaren stoppa den.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">⚖️</div><h3>Undantag granskas</h3><p>Fotbollsappen måste hämta resultat – men bara från en enda källa, aldrig med din data, och bara när du tittar.</p></div>
     </div>
   </section>
 
@@ -143,21 +153,61 @@
   </section>
 
   <section>
-    <span class="eyebrow">Kvalitetsstämpel</span>
-    <h2>Säkerhetstestad – i alla appar</h2>
-    <h3 class="checks-h">Säkerhetskontroll</h3>
-    <ul class="checks">
-      <li><b>Bara appens egen kod körs</b><span>webbläsaren blockerar allt annat.</span></li>
-      <li><b>Inget lämnar telefonen</b><span>appen pratar inte med servrar – undantag bara efter granskning, t.ex. fotbollsresultat.</span></li>
-      <li><b>Din data stannar hos dig</b><span>appen rör bara sina egna uppgifter.</span></li>
-      <li><b>Låst backup</b><span>lösenordet finns aldrig i filen – bara i telefonen, om du vill.</span></li>
-    </ul>
-    <h3 class="checks-h">Funktionstester</h3>
-    <ul class="checks">
-      <li><b>Trasiga filer stoppas</b><span>en backup som någon ändrat i läses inte in.</span></li>
-      <li><b>Inget innehåll kan bli kod</b><span>allt visas som vanlig text.</span></li>
-      <li><b>Backup tur och retur</b><span>det du sparar är exakt det du får tillbaka.</span></li>
-    </ul>
+    <span class="eyebrow">Princip 3 · Snabbt i vardagen</span>
+    <h2>Några sekunder, sedan klart</h2>
+    <div class="cols">
+      <div class="card"><div class="ic" aria-hidden="true">⏱️</div><h3>Det vanligaste först</h3><p>Ny tråd: välj typ, skriv en rubrik. Tabellen syns direkt vid start. Resten kan vänta.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">👍</div><h3>Byggd för tummen</h3><p>Meny nertill, tryckytor på minst 48 px, inga små kryss.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">↩️</div><h3>Bakåt fungerar</h3><p>Telefonens bakåtknapp stänger det som är öppet, ett steg i taget – inte hela appen.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">📴</div><h3>Fungerar utan nät</h3><p>Installeras från webben och startar som en vanlig app, även i flygläge.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Princip 3 · Lugn</span>
+    <h2>En app ska ta bort stress, inte skapa den</h2>
+    <p class="lead">Inga notiser som kräver uppmärksamhet. Inga streaks att förlora. Inga röda siffror som ropar.</p>
+    <div class="cols">
+      <div class="card"><div class="ic" aria-hidden="true">🧠</div><h3>Skriv ner – släpp</h3><p>Stress kontroll bygger på en enkel tanke: det som har ett nästa steg nedskrivet behöver inte snurra i huvudet.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">🌱</div><h3>Vanor före siffror</h3><p>Simple nutrition låter dig lära dig råvarorna. Kalorier finns som stöd när du vill.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">🗓️</div><h3>Månad, inte kvitto</h3><p>Budget buddy planerar det stora. Kaffet behöver ingen rad.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Princip 4 · Enkelt att lita på</span>
+    <h2>Ren webb, inga beroenden</h2>
+    <div class="cols">
+      <div class="card"><div class="ic" aria-hidden="true">⚡</div><h3>Inga ramverk</h3><p>Vanlig HTML, CSS och JavaScript. Inget byggsteg, inga paket från okända källor.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">🔍</div><h3>Går att granska</h3><p>Liten kod som en människa kan läsa. Hela appen ryms i en enda fil.</p></div>
+      <div class="card"><div class="ic" aria-hidden="true">🛡️</div><h3>Text är alltid text</h3><p>Det du skriver visas aldrig som kod. En rubrik kan inte bli ett skript.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Automatiska tester</span>
+    <h2>Ett tryck – och allt kontrolleras</h2>
+    <div class="flow">
+      <div class="fbox"><b>1 · Säkerhetskontroll</b>Letar efter sådant som inte får finnas: kod utifrån, anrop till okända servrar, osäker lagring.</div>
+      <div class="farr" aria-hidden="true">↓</div>
+      <div class="fbox"><b>2 · Funktionstester</b>Appen används i en riktig webbläsare som en människa skulle: knappar trycks, data sparas, backup läses in.</div>
+      <div class="farr" aria-hidden="true">↓</div>
+      <div class="fbox"><b>3 · Ny version</b>Först när allt är grönt får appen ett nytt versionsnummer.</div>
+      <div class="farr" aria-hidden="true">↓</div>
+      <div class="fbox"><b>4 · Granskning</b>Ändringar som rör säkerheten granskas separat innan de publiceras.</div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Princip 5 · Bättre tillsammans</span>
+    <h2>En mall, fyra appar</h2>
+    <ol class="steps">
+      <li>Ny app startas från en gemensam mall – backup, tema, tester och hjälp finns från dag ett</li>
+      <li>Spec först: idé, mål och det som medvetet inte byggs</li>
+      <li>Säkerheten prövas före bygget och granskas före uppladdning</li>
+      <li>Det som blir bättre i en app förs tillbaka till mallen – och ut i alla</li>
+    </ol>
+    <p class="note">Exempel: den låsta backupen byggdes i en app och finns nu i alla fyra.</p>
   </section>
 
   <section>
@@ -165,36 +215,19 @@
     <h2>Samma formspråk, egen färg</h2>
     <div class="card">
       <h3>Material Design 3, byggd för mobilen</h3>
-      <p>Varje app har en egen nyckelfärg som styr allt. Nästan kantigt och tätt, ljust och mörkt tema.</p>
+      <p>Varje app har en egen nyckelfärg som styr allt. Nästan kantigt och tätt, ljust och mörkt tema som följer telefonen.</p>
       <div class="palette"><div class="sw p">primary</div><div class="sw c">container</div><div class="sw s">surface</div><div class="sw d">dark</div></div>
       <div class="shapes"><div class="shape r8">Kort · 8 px</div><div class="shape r4">Chip · 4 px</div><div class="shape r6">Knapp · 6 px</div><div class="shape r12">Dialog · 12 px</div></div>
-      <p class="note">Bottenmeny för tummen · tryckytor ≥ 48 px · systemtypsnitt</p>
+      <p class="note">Svenska och engelska i appen · systemtypsnitt · hjälp inbyggd</p>
     </div>
   </section>
-
-  <section>
-    <span class="eyebrow">Struktur</span>
-    <h2>Samma struktur, varje gång</h2>
-<pre><em>index.html</em>  styles.css  app.js
-store.js  backup.js  <em>sw.js</em>
-<em>docs/</em>   SPEC · MANUAL · presentation
-<em>tools/</em>  tester · bygge
-<em>dist/</em>   testfil med allt inbakat</pre>
-    <ol class="steps">
-      <li>Ny app startas från en gemensam mall</li>
-      <li>Spec först – idé, mål och det som medvetet inte byggs</li>
-      <li>Säkerhet prövas före bygget och granskas före uppladdning</li>
-      <li>Det som blir bättre i en app förs in i alla</li>
-    </ol>
-  </section>
-
 
   <section class="title">
     <div class="glow"></div><div class="glow g2"></div>
     <div class="hero">
       <span class="eyebrow">Sammanfattning</span>
-      <h1>Små appar,<br>hög nivå.</h1>
-      <p class="lead">Nästa app – kanske din – byggs från samma mall: låst backup, din data hos dig, testad före varje version och genomtänkt från dag ett.</p>
+      <h1>En fråga.<br>Din data.<br>Inget mer.</h1>
+      <p class="lead">Små appar som gör en sak väl, håller dina uppgifter hos dig och är testade före varje version.</p>
     </div>
   </section>
 

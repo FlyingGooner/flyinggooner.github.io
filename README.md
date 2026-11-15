@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://flyinggooner.github.io/"><b>Home page</b></a> ·
-  <a href="https://flyinggooner.github.io/presentation.html"><b>The presentation as a slideshow</b></a>
+  <a href="https://flyinggooner.github.io/"><b>The presentation as a slideshow</b></a>
 </p>
 
 ---
