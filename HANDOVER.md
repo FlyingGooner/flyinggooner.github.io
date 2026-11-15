@@ -41,5 +41,5 @@ Till nästa session. Repon: `Stress-control`, `simple-nutrition`, `Football-not-
 - Alla fyra appar är tvåspråkiga (svenska källa, engelska via `i18n.js` + `i18n-en.js`). `i18n.js` är samma fil i alla repon (även här, för presentationerna) – för in den i mall-repot.
 - Språket väljs i välkomstrutan (överst, före lösenordet) och under Inställningar. Budget buddy har dessutom valbar hemvaluta (`settings.home`, omräkning med `changeHome`).
 - Manualer: `docs/MANUAL.en.md` i varje app → engelsk Hjälp (`help-tpl-en` / `help-en:start` / `card-help-en`). `build-help.ps1` bygger båda språken (ej körd här – kör lokalt en gång).
-- Presentationer, `standard.html` och startsidan: engelska som standard, språkknapp på första bilden. Ordlistan `presentation-en.js` är samma i alla repon (nyckel = svensk textbit) – ändras en svensk text måste nyckeln ändras också. För in i mall-repot så att `sync-shared.ps1` inte skriver över.
+- Presentationer, `standard.html` och startsidan: svenska som standard, språkknapp på första bilden. Ordlistan `presentation-en.js` är samma i alla repon (nyckel = svensk textbit) – ändras en svensk text måste nyckeln ändras också. För in i mall-repot så att `sync-shared.ps1` inte skriver över.
 - Alla README är nu på engelska.
