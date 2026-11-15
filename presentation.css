@@ -153,3 +153,12 @@ a.url { text-decoration: underline; }
 .vs-bad b, .vs-good b { display: block; color: var(--ink); font-size: 14px; }
 .vs-ic { font-size: 22px; line-height: 32px; text-align: center; }
 .vs-good img { width: 32px; height: 32px; border-radius: var(--r-md); }
+.vs { gap: 16px; }
+.vs-pair { border: 2px solid var(--key); }
+.vs-bad { grid-template-columns: 32px 1fr; position: relative; padding-top: 26px; }
+.vs-tag { position: absolute; top: 8px; left: 12px; font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #c0392b; }
+.vs-good { border-top: 0; }
+.vs-link { height: 0; position: relative; border-top: 1px dashed var(--line); }
+.vs-link span { position: absolute; left: 50%; top: 0; transform: translate(-50%, -50%); background: var(--key); color: #fff; font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 999px; white-space: nowrap; }
+@media (prefers-color-scheme: dark) { .vs-tag { color: #ff8a80; } }
+.vs-bad { padding-bottom: 18px; } .vs-good { padding-top: 18px; }
