@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="icons/simple-nutrition.png" width="64" alt="Simple nutrition">
+  <img src="icons/simple-nutrition.png" width="64" alt="Fitness buddy">
   <img src="icons/budget-buddy.png" width="64" alt="Budget buddy">
   <img src="icons/football.png" width="64" alt="Football, not soccer">
-  <img src="icons/stress-control.png" width="64" alt="Stress control">
+  <img src="icons/stress-control.png" width="64" alt="Task buddy">
 </p>
 
 <h1 align="center">Small apps, big needs</h1>
@@ -23,10 +23,10 @@
 
 | | App | The question it answers |
 |:-:|---|---|
-| <img src="icons/simple-nutrition.png" width="40" alt=""> | **[Simple nutrition](https://flyinggooner.github.io/simple-nutrition/)** | What have I eaten today – and how is my weight doing over time? |
+| <img src="icons/simple-nutrition.png" width="40" alt=""> | **[Fitness buddy](https://flyinggooner.github.io/simple-nutrition/)** | What have I eaten today – and how is my weight doing over time? |
 | <img src="icons/budget-buddy.png" width="40" alt=""> | **[Budget buddy](https://flyinggooner.github.io/budget-buddy/)** | Does the month add up – and where does it get tight ahead? |
 | <img src="icons/football.png" width="40" alt=""> | **[Football, not soccer](https://flyinggooner.github.io/Football-not-soccer/)** | What does the table look like, what is played next, how did my team do? |
-| <img src="icons/stress-control.png" width="40" alt=""> | **[Stress control](https://flyinggooner.github.io/Stress-control/)** | What is spinning in my head – and what is the next step, so I can let it go? |
+| <img src="icons/stress-control.png" width="40" alt=""> | **[Task buddy](https://flyinggooner.github.io/Stress-control/)** | What is spinning in my head – and what is the next step, so I can let it go? |
 
 > **Install:** open the app in Chrome (Android) or Safari (iPhone) and choose *Install app* / *Add to Home Screen*. It then works offline. The first time, you choose English or Swedish.
 
@@ -60,10 +60,10 @@ Each app has a list of *non-goals* – things deliberately not built, however te
 
 | App | Deliberately left out |
 |---|---|
-| Simple nutrition | Brands, ready meals, micronutrients |
+| Fitness buddy | Brands, ready meals, micronutrients |
 | Budget buddy | Bank connection, receipts for every purchase, tax calculation |
 | Football, not soccer | News, squads, statistics, push notifications |
-| Stress control | Sync, attachments, reminders via a server |
+| Task buddy | Sync, attachments, reminders via a server |
 | **All** | **Account, server, ads, tracking** |
 
 ### 🧘 An app should remove stress, not create it
