@@ -133,8 +133,12 @@ pre em { color: var(--key-hi); font-style: normal; }
 /* Språkknapp på första bilden (2026-11-15) */
 .lang-btn { position: absolute; top: 16px; right: 16px; z-index: 2; min-height: 40px; padding: 0 14px; border-radius: 20px; border: 1px solid currentColor; background: transparent; color: inherit; font: inherit; font-size: .9rem; cursor: pointer; opacity: .85; }
 .lang-btn:hover, .lang-btn:focus-visible { opacity: 1; }
-.gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 16px; }
-@media (min-width: 720px) { .gallery { grid-template-columns: repeat(4, 1fr); } }
-.gallery figure { margin: 0; text-align: center; }
-.gallery img { width: 100%; border-radius: var(--r-lg); border: 2px solid var(--paper); outline: 1px solid var(--line); box-shadow: 0 30px 50px -28px rgba(0,0,0,.45); }
-.gallery figcaption { font-size: 13px; color: var(--muted); margin-top: 6px; }
+
+/* Delbilder (2026-11-15): egna pilar ovanför de vanliga, bara på bilder med .sub */
+.subnav { position: fixed; left: 0; right: 0; bottom: 64px; height: 56px; display: flex; align-items: center; justify-content: center; gap: 12px; background: var(--tint); border-top: 1px solid var(--line); }
+.subnav[hidden] { display: none; }
+.subnav button { width: 48px; height: 44px; border-radius: var(--r-md); border: 1px solid var(--key); background: var(--paper); color: var(--key); font: 500 22px var(--font); cursor: pointer; }
+.subnav span { min-width: 170px; text-align: center; font-size: 14px; color: var(--ink); font-variant-numeric: tabular-nums; }
+.deck > section:has(.sub) { padding-bottom: 96px; }
+.sub[hidden] { display: none; }
+@media print { .subnav { display: none; } .sub[hidden] { display: block; } }
