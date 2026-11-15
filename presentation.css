@@ -142,3 +142,5 @@ pre em { color: var(--key-hi); font-style: normal; }
 .deck > section:has(.sub) { padding-bottom: 96px; }
 .sub[hidden] { display: none; }
 @media print { .subnav { display: none; } .sub[hidden] { display: block; } }
+a.url { text-decoration: underline; }
+.cta { display: inline-block; margin-top: 18px; padding: 12px 22px; min-height: 48px; box-sizing: border-box; border-radius: var(--r-md); background: var(--key); color: #fff; font-weight: 600; text-decoration: none; }
